@@ -50,8 +50,8 @@ knn.fit(X_train, y_train)
 # predict
 y_predict = knn.predict(X_test)
 # show
-print(y_predict)
-print(y_test)
+# print(y_predict)
+# print(y_test)
 
 # Accuracy knn model
 accuracy = accuracy_score(y_test, y_predict)
